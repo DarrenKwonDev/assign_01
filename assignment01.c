@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-const char* FILENAME = "measurements.csv";
+const char* FILENAME = "weather_stations.csv";
 
 #define STATION_NAME_LEN 48
 #define MAX_LOCATIONS 50000
