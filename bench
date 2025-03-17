@@ -1,0 +1,10 @@
+server01@localhost:~/rtg_assign_01 (master)$ hyperfine './assignment01'
+Benchmark 1: ./assignment01
+  Time (mean ± σ):      5.502 s ±  0.179 s    [User: 5.473 s, System: 0.004 s]
+  Range (min … max):    5.222 s …  5.724 s    10 runs
+ 
+server01@localhost:~/rtg_assign_01 (master)$ 
+server01@localhost:~/rtg_assign_01 (master)$ hyperfine './main'
+Benchmark 1: ./main
+  Time (mean ± σ):      77.3 ms ±   0.4 ms    [User: 67.0 ms, System: 9.9 ms]
+  Range (min … max):    76.8 ms …  78.3 ms    37 runs
